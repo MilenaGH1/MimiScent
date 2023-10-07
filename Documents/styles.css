@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+:root{
+--background-color: #fff;
+--text:#000000;
+--text-2:#2e2828;
+--fluorescent-cyan: #4effefff;
+--moonstone: #73a6adff;
+--cool-gray: #9b97b2ff;
+--pink-lavender: #d8a7caff;
+--periwinkle: #c7b8eaff;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Serif Display', serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/*HEADER*/
+header{
+    background-color:var(--background-color);
+    border-color: #000000;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 10px 30px ;
+}
+    
+
+.logo{
+    width: 200px;
+}
+
+.navbar,
+.navbar-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+}
+
+.navbar-list a{
+    color: var(--text);
+    font-size: 16px;
+}
+
+.navbar-list span{
+    font-weight: 800;
+}
+
+.btn-container{
+    width: 300px; 
+}
+
+.button{
+    background-color:var(--pink-lavender);
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.btn-container{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: transparent;
+}
+
+/*HERO*/
+main{
+    background-color:var(--pink-lavender);
+    height: 40px;
+}
+
+.hero-list{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+    margin-left: 5%;
+}
+
+.hero-list li{
+    color: var(--text-2);
+}
+
+/*Cards*/
+
+.card-container{
+    width: 300px;
+    background: var(--periwinkle);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px
+}
+
+
+
+
+
+
+
+
+
+
+
+
