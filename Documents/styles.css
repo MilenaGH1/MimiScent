@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500;1,900&display=swap');
 :root{
+ --bg-grey:#c1abab5b;
 --background-color: #fff;
 --text:#000000;
 --text-2:#2e2828;
 --fluorescent-cyan: #4effefff;
 --moonstone: #73a6adff;
---cool-gray: #9b97b2ff;
+--cool-gray: rgba(156, 156, 157, 0.549);
 --pink-lavender: #d8a7caff;
 --periwinkle: #c7b8eaff;
 }
@@ -19,7 +20,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Playfair Display', serif;
     text-decoration: none;
     list-style-type: none;
 }
@@ -85,27 +86,56 @@ main{
 .hero-list{
     width: 90%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding:10px 20px;
     margin-left: 5%;
 }
 
-.hero-list li{
+.hero-list a{
     color: var(--text-2);
+    font-size: 18PX;
+    font-weight: 600;
 }
 
 /*Cards*/
 
+#card{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+
+
 .card-container{
-    width: 300px;
-    background: var(--periwinkle);
+    background-color: var(--bg-grey);
+    width: 290px;
     padding: 20px;
-    border-radius: 15px;
+    margin:60px 0 0 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px
+    gap: 30px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.card-info p {
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    word-spacing: 5px;
+    background-color: var(--pink-lavender);
+   
+
+}
+.card-container img{
+    border-radius:10px;
+    width: 248px;
+    height: 320px;
 }
 
 
