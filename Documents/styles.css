@@ -230,6 +230,37 @@ main h1{
     color: var(--moonstone);
 }
 
+.beauty-info img{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 50px;
+    
+
+}
+
+/*Discover*/
+#discover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.discover-container img{
+    box-shadow: 2px 2px 5px 10px rgba(0,0,0,0.18);
+    border-radius:10px;
+    height: 150px;
+    padding: 30px;
+    margin: 50px;
+
+}
+
 /*footer*/
 
 footer{
