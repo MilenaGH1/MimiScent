@@ -1,0 +1,171 @@
+/*DESTOK*/
+@media(max-width:1940px){
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #card{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    #products{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media(max-width :1200px){
+    #products{
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #card{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .about-info h2{
+        font-size: 20px;
+    }
+    
+    .discover-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+ }
+
+
+
+/*DESTOK*/
+
+/*Tablet*/
+
+@media(max-width:1024px){
+    .navbar-list{
+        background-color: var(--background-color);
+        position: absolute;
+        top: 100px;
+        width: 90%;
+        flex-direction: column;
+        border: 2px solid #000000;
+        border-top: 0;
+        border-radius: 0 0 15px 15px;
+        align-items: center;
+        padding: 45px 30px;
+        gap: 20px;
+        z-index: 2;
+        display: none;
+    }
+    .menu-label{
+        display: block;
+    }
+
+    #menu-toggle:checked ~ .navbar-list {
+        display: flex;
+    }
+
+    main h1{
+        font-size: 72px;
+    }
+
+    .about-info h2 {
+        font-size: 25px;
+    }
+
+    .about-info p{
+        font-size: 15px;
+    }
+    #products{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .discover-container{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:992px){
+    #card{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .btn-container{
+        width: 150px;
+    }
+
+    .about-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+/*TABLET*/
+
+
+
+/*Celular*/
+
+@media(max-width:640px){
+
+    .logo{
+        width:150px;
+    }
+
+    .button{
+        display: none;
+    }
+
+    .navbar-list{
+    background-color: var(--background-color);
+    position: absolute;
+    top: 100px;
+    width: 90%;
+    flex-direction: column;
+    border: 2px solid #000000;
+    border-top: 0;
+    border-radius: 0 0 15px 15px;
+    align-items: center;
+    padding: 45px 30px;
+    gap: 20px;
+    display: none;
+    }
+
+    .menu-label{
+        display: block;
+    }
+
+    #menu-toggle:checked ~ .navbar-list {
+        display: flex;
+    }
+
+    .hero-list a {
+        color: var(--text-2);
+        font-size: 12px;
+        font-weight: 20px;
+    }
+
+    #contact iframe{
+        display: none;
+    }
+
+}
+/*Celular  */
+    

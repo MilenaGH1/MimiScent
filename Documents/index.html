@@ -5,22 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MimiScent</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./mediaquerie.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
     <header>
         <img src="../Image/Logo.svg" alt="MimiScent-logo" class="logo">
-         <div class="button">
+        <div class="button">
             <input type="textarea" class="btn-container" placeholder="Buscar">
             <label for="text"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></label>
         </div>
         <nav class="navbar">
+
+            <label for="menu-toggle" class="menu-label">
+                <i class="fa-solid fa-bars" style="color: #000000;"></i>
+            </label>
+            <input type="checkbox" id="menu-toggle">
+
             <ul class="navbar-list">
                 <li><a href="#"><span>Home</span></a></li>
                 <li><a href="#">Sobre nosotros</a></li>
-    
-                <i class="fa-regular fa-user fa-xl" style="color: #000000;"> </i>
-                <i class="fa-solid fa-cart-shopping fa-xl" style="color: #000000;"></i>
+                <li><a href="#"> <i class="fa-regular fa-user fa-xl" style="color: #000000;"> </i></a></li>
+                <li><a href="#">  <i class="fa-solid fa-cart-shopping fa-xl" style="color: #000000;"></i></a></li>
+
             </ul>
         </nav>
     </header>
@@ -69,12 +76,12 @@
 
         </section>
 
-        <section id="products">
+        <div class="promo-info">
+            <h2>Nuestras Fragancias</h2>
+            <img src="../Image/promo-dia-delamadre.webp" alt="promo-dia-delamadre">
+        </div>
 
-            <div class="promo-info">
-                <h2>Nuestras Fragancias</h2>
-                <img src="../Image/promo-dia-delamadre.webp" alt="promo-dia-delamadre">
-            </div>
+        <section id="products"
 
             <!-- producto 1 -->
             <div class="products-container">
