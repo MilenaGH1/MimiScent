@@ -1,62 +1,9 @@
-/*DESTOK*/
-@media(max-width:1940px){
-    header{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    #card{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 100%;
-    }
-
-    #products{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-}
-
-@media(max-width :1200px){
-    #products{
-
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    #card{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    .about-info h2{
-        font-size: 20px;
-    }
-    
-    .discover-container {
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-start;
-    }
- }
-
-
-
-/*DESTOK*/
-
-/*Tablet*/
-
-@media(max-width:1024px){
+@media(max-width:1100px){
     .navbar-list{
         background-color: var(--background-color);
         position: absolute;
         top: 100px;
         width: 90%;
-        left: 2%;
         right: 2%;
         flex-direction: column;
         border: 2px solid #000000;
@@ -82,17 +29,13 @@
 
     .about-info h2 {
         font-size: 25px;
+        text-align: center;
+        width: 90%;
     }
 
     .about-info p{
         font-size: 15px;
     }
-    #products{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
     .discover-container{
         
         display: flex;
@@ -103,12 +46,6 @@
 }
 
 @media(max-width:992px){
-    #card{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
     .btn-container{
         width: 150px;
     }
@@ -124,9 +61,19 @@
 
 
 /*Celular*/
-
 @media(max-width:640px){
+    #contact iframe{
+        display: none;
+    }
 
+}
+
+@media(max-width:590px){
+
+    header{
+        padding: 10px;
+
+    }
     .logo{
         width:150px;
     }
@@ -150,6 +97,23 @@
     display: none;
     }
 
+    .about-info h2{
+        font-size: 16px;
+        width:90%;
+    }
+
+    .about-info p{
+        font-size: 12px;
+    }
+
+    main h1{
+        font-size: 50px;
+    }
+
+    .card-container{
+     display: none;
+    }
+
     .menu-label{
         display: block;
     }
@@ -164,8 +128,40 @@
         font-weight: 20px;
     }
 
-    #contact iframe{
+    .products-container{
+        height: 40%;
+        width: 53%;
+    }
+
+    .container-contact{
+        display: flex;
+        align-items: center;
+    }
+
+    .discover-container img{
+        height: 110px;
+        padding:20px;
+    }
+    .footer-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 18px 18px 20px;
+        font-size: 10px;
+    }
+
+    .footer-links img{
         display: none;
+    }
+
+    .contact-us img{
+        width: 150px;
+    }
+
+    .container-contact p,
+    .container-contact h3,
+    .container-contact a{
+        font-size: 12px;
     }
 
 }

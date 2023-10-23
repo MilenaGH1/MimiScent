@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    gap: 20px;
+}
+
+section h2{
+    background-color: var(--bg-grey);
+    padding: 50px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+.register-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap:20px;
+    font-size: 15px;
+    background-color:var(--bg-grey);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.register-info{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.register-info input{
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    width: 250px;
+    background-color: var(--background-color);
+
+}
+
+.checkbox-register{
+    font-size: 10px;
+    margin-bottom:20px ;
+}
+
+@media(min-width:1020px){
+    .register-container{
+        width: 800px;
+        height: 550px;
+        margin: 50px;
+    }
+    section h2{
+        font-size: 30px;
+    }
+
+
+    .register-info label{
+        font-size: 16px;
+    }
+
+    .register-info input{
+        padding:10px;
+        width: 350px;
+
+    }
+
+    .checkbox-register{
+        font-size: 12px;
+        margin-bottom:20px ;
+    }
+
+
+}

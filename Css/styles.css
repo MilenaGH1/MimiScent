@@ -101,12 +101,10 @@ main h1{
 }
 
 .hero-list{
-    width: 90%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding:10px 20px;
-    margin-left: 5%;
 }
 
 .hero-list a{
@@ -119,15 +117,15 @@ main h1{
 
 #card{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 30px;
     flex-wrap: wrap;
 }
 .card-container{
     background-color: var(--bg-grey);
-    width: 290px;
-    padding: 20px;
-    margin:60px 0 0 10px;
+    width:290px;
+    padding:20px;
+    margin:20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -148,8 +146,9 @@ main h1{
 }
 .card-container img{
     border-radius:10px;
-    width: 248px;
-    height: 320px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
 }
 
 /*About*/
@@ -174,6 +173,8 @@ main h1{
 
 #products{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -209,8 +210,9 @@ main h1{
 }
 
 .products-card img {
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    height: auto; 
+    max-width: 100%;
 }
 
 .products-top{
@@ -239,16 +241,12 @@ main h1{
 }
 
 /*Discover*/
-#discover{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .discover-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     gap: 50px;
 }
 
@@ -292,7 +290,7 @@ footer{
 
 .container-contact{
     display: flex;
-    gap:100px;
+    gap:50px;
     flex-wrap: wrap;
 }
 .info-contact h3{
@@ -319,6 +317,10 @@ footer{
     gap: 20px;
 }
 
+#contact iframe{
+    margin: 10px;
+}
+
 .footer-links a{
     text-decoration: none;
     color:var(--text-2);
@@ -330,8 +332,6 @@ footer{
     border-radius: 50%;
     width: 100px;
     height: 100px;
-
-    
 }
 
 
