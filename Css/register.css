@@ -8,18 +8,17 @@
 
 section{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 10px;
+    height: 100%;
     gap: 20px;
 }
 
 section h2{
-    background-color: var(--bg-grey);
     padding: 50px;
-    border-radius: 50%;
-    font-size: 12px;
+    font-size: 16px;
 }
 .register-container{
     display: flex;

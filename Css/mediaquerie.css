@@ -1,19 +1,22 @@
 @media(max-width:1100px){
     .navbar-list{
-        background-color: var(--background-color);
+        background-color:var(--background-color);
         position: absolute;
         top: 100px;
-        width: 90%;
-        right: 2%;
-        flex-direction: column;
-        border: 2px solid #000000;
-        border-top: 0;
-        border-radius: 0 0 15px 15px;
+        width: 100%;
+        height:50vh;
+        left: 0;
         align-items: center;
-        padding: 45px 30px;
-        gap: 20px;
-        z-index: 2;
-        display: none;
+        justify-content:center;
+        flex-direction: column;
+        transform: translate(200%);
+        transition: all 0.5s cubic-bezier(0.92,0.01,0.35,0.99);
+    }
+
+    .navbar-list a,
+    .navbar-list span{
+
+        font-size: 12px;
     }
     .menu-label{
         display: block;
@@ -21,6 +24,8 @@
 
     #menu-toggle:checked ~ .navbar-list {
         display: flex;
+        transform: translate(0%);
+        transition: all 0.5s cubic-bezier(0.92,0.01,0.35,0.99);
     }
 
     main h1{
@@ -82,21 +87,6 @@
         display: none;
     }
 
-    .navbar-list{
-    background-color: var(--background-color);
-    position: absolute;
-    top: 100px;
-    width: 90%;
-    flex-direction: column;
-    border: 2px solid #000000;
-    border-top: 0;
-    border-radius: 0 0 15px 15px;
-    align-items: center;
-    padding: 45px 30px;
-    gap: 20px;
-    display: none;
-    }
-
     .about-info h2{
         font-size: 16px;
         width:90%;
@@ -129,8 +119,12 @@
     }
 
     .products-container{
-        height: 40%;
+        height: 30%;
         width: 53%;
+    }
+
+    .products-card{
+        width: 75%;
     }
 
     .container-contact{

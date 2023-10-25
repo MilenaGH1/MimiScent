@@ -30,16 +30,18 @@ header{
     background-color:var(--background-color);
     border-color: #000000;
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
     width: 100%;
-    height: 100px;
+    height: 84px;
     padding: 10px 30px ;
+    position: fixed;
+    top: 0;
 }
     
 
 .logo{
-    width: 200px;
+    width: 150px;
 }
 
 .navbar,
@@ -69,6 +71,7 @@ header{
     font-size: 20px;
 }
 
+
 .btn-container{
     width: 300px; 
 }
@@ -88,13 +91,16 @@ header{
 /*HERO*/
 #hero-components{
     background-color:var(--pink-lavender);
+    position:fixed;
+    top: 80px;
+    width: 100%;
     height: 40px;
 }
 
 main h1{
     font-size: 82px;
     text-align: center;
-    margin-top:50px ;
+    margin-top:200px ;
     background: linear-gradient(28deg,#d8a7ca 0%, #73a6ad 80%);
     color: transparent;
     -webkit-background-clip: text;
@@ -173,7 +179,7 @@ main h1{
 
 #products{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -211,8 +217,7 @@ main h1{
 
 .products-card img {
     width: 100%;
-    height: auto; 
-    max-width: 100%;
+   
 }
 
 .products-top{
@@ -244,7 +249,7 @@ main h1{
 
 .discover-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
     gap: 50px;

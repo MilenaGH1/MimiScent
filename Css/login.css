@@ -8,19 +8,18 @@
 
 section{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:center;
     align-items: center;
     flex-direction: column;
     text-align: center;
+    gap: 20px;
     width: 100%;
-    height: 80%;
+    height: 100%;
 }
 
 section h2{
-    background-color: var(--bg-grey);
     padding: 50px;
-    border-radius: 50%;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .login-container{
