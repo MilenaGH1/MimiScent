@@ -89,34 +89,13 @@ header{
 }
 
 /*HERO*/
-#hero-components{
-    background-color:var(--pink-lavender);
-    position:fixed;
-    top: 80px;
-    width: 100%;
-    height: 40px;
-}
-
 main h1{
     font-size: 82px;
     text-align: center;
-    margin-top:200px ;
+    margin-top:150px ;
     background: linear-gradient(28deg,#d8a7ca 0%, #73a6ad 80%);
     color: transparent;
     -webkit-background-clip: text;
-}
-
-.hero-list{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding:10px 20px;
-}
-
-.hero-list a{
-    color: var(--text-2);
-    font-size: 18PX;
-    font-weight: 600;
 }
 
 /*Cards*/
@@ -164,7 +143,6 @@ main h1{
     justify-content: center;
     align-items: center;
     padding: 30px 30px;
-    margin-top: 50px;
     gap: 30px;
     background-color: var(--bg-grey);
 }
@@ -184,22 +162,20 @@ main h1{
     flex-wrap: wrap;
 }
 
-.promo-info{
-    margin:50px
-}
-
-.promo-info h2{
+   .promo-info h2{
     text-align: center;
     font-size: 30px;
-    padding-top:20px ;
+    padding-top:50px ;
     background: linear-gradient(28deg,#d8a7ca 0%, #73a6ad 80%);
     color: transparent;
     -webkit-background-clip: text;
-}
+   }
+   
+
+
 .promo-info img{
-    max-height: 100%;
-    width: 100%;
-    margin-top: 20px;
+    width:100%;
+    margin-top: 60px;
 }
 
 
@@ -247,11 +223,20 @@ main h1{
 
 /*Discover*/
 
+#discover h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top:20px ;
+    background: linear-gradient(28deg,#d8a7ca 0%, #73a6ad 80%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
 .discover-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    cursor: pointer;
     gap: 50px;
 }
 

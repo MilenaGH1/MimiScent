@@ -17,7 +17,6 @@
             <label for="text"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></label>
         </div>
         <nav class="navbar">
-
             <label for="menu-toggle" class="menu-label">
                 <i class="fa-solid fa-bars" style="color: #000000;"></i>
             </label>
@@ -27,42 +26,33 @@
             </div>
 
             <ul class="navbar-list">
-                <li><a href="#"><span>Home</span></a></li>
-                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="#hero"><span>Home</span></a></li>
+                <li><a href="#About-us">Sobre nosotros</a></li>
+                <li><a href="#contact">Contactanos</a></li>
                 <li><a href="./login.html"> <i class="fa-regular fa-user fa-xl" style="color: #000000;"> </i></a></li>
-                <li><a href="#">  <i class="fa-solid fa-cart-shopping fa-xl" style="color: #000000;"></i></a></li>
-
             </ul>
             
         </nav>
     </header>
 
-    <main>
-        <section id="hero-components">
-            <ul class="hero-list">
-                <li><a href="#">Fragancias</a></li>
-                <li><a href="#">Dia de las Madres</a></li>
-                <li><a href="#">Beauty Sale</a></li>
-            </ul>
-        </section>
-
+    <main id="hero">
         <h1>MimiScent</h1>
 
         <section id="card">
             <div class="card-container">
-                <img src="../Image/madre e hija.jpg" alt="madreehijas">
+                <a href="#promotion"><img src="../Image/madre e hija.jpg" alt="madreehijas"></a>
                 <div class="card-info">
                     <p>Dia de la Madres</p>
                 </div>
             </div>
             <div class="card-container">
-                <img src="./Image/Bestseller.jpeg" alt="fragancias">
+                <a href="#discover"><img src="./Image/Bestseller.jpeg" alt="fragancias"></a>
                 <div class="card-info">
                     <p>Fragancias</p>
                 </div>
             </div>
             <div class="card-container">
-                <img src="../Image/Abeilleroyale.jpg" alt="Beautysale">
+                <a href="#beautysale"><img src="../Image/Abeilleroyale.jpg" alt="Beautysale"></a>
                 <div class="card-info">
                     <p>Beauty Sale</p>
                 </div>
@@ -81,10 +71,13 @@
 
         </section>
 
-        <div class="promo-info">
-            <h2>Nuestras Fragancias</h2>
-            <img src="../Image/promo-dia-delamadre.webp" alt="promo-dia-delamadre">
-        </div>
+        <section>
+
+            <div class="promo-info">
+                <h2 id="promotion">Dia de las Madres</h2>
+                <img src="../Image/promo-dia-delamadre.webp" alt="promo-dia-delamadre">
+            </div>
+        </section>
 
         <section id="products">
 
@@ -150,7 +143,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="beautysale">
             <div class="beauty-info">
                 <img src="../Image/Beauty -sale.webp" alt="Beautysale">
             </div>
@@ -158,6 +151,7 @@
         </section>
 
         <section id="discover">
+            <h2>Nuestras Fragancias</h2>
             <div class="discover-container">
                 <div class="discover-info">
                     <img src="../Image/rabanne-marca.webp" alt="rabanne-marca">

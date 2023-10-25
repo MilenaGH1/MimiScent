@@ -15,29 +15,61 @@
     display: block;
 }
 
-/* narvar */
+/*keyframes*/
 
-.navbar-list li{
-    position: relative;
-    padding: 0;
-}
+@keyframes fade {
+    from{
+        opacity: 0;
+    }
 
-/* .navbar-list li a::after{
+    to{
+        opacity: 1;
+    }
     
-    content:**;
-    height:2px;
-    width:100%;
-    background:black;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transform: scaleX(0);
-    transform-origin:bottom right;
-    transition:transform  0.15 ease;
 }
 
-.navbar-list li a:hover::after{
-    transform-origin:bottom left ;
-    transform: scaleX(1);
+@keyframes slide-up {
+    from{
+        transform: translateY(200px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
 
-} */
+@keyframes slide-right {
+    from{
+        transform: translateX(100px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+.discover-container{
+    opacity: 1;
+    animation: fade 0,8s ease-in forwards,slide-up 1,3s ease-in-out;
+}
+
+/*Card*/
+.card-container img{
+    transition: all 0,3s linear;
+}
+
+.card-container img:hover {
+    transform: scale(0.9);
+    transition: all 0,3s linear;
+}
+
+/*discover*/
+.discover-container img{
+    transition: all 0,3s linear;
+}
+
+.discover-container img:hover {
+    transform: scale(0.9);
+    transition: all 0,3s linear;
+}
+
+
+
