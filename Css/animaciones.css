@@ -46,9 +46,8 @@
     }
 }
 
-.discover-container{
-    opacity: 1;
-    animation: fade 0,8s ease-in forwards,slide-up 1,3s ease-in-out;
+#hero h1{
+    animation: fade 0.5s ease-in,slide-right 0.8s ease-in-out;
 }
 
 /*Card*/
@@ -70,6 +69,5 @@
     transform: scale(0.9);
     transition: all 0,3s linear;
 }
-
 
 
