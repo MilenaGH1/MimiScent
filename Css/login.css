@@ -4,7 +4,9 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+
 }
+
 
 section{
     display: flex;
@@ -53,7 +55,7 @@ section h2{
 }
  
 .login-container a,
-body span{
+body span {
     color: var(--text);
     font-weight: 600;
     background-color:var(--pink-lavender);
@@ -73,8 +75,6 @@ body span{
 
 @media(min-width:1020px){
     .login-container{
-        width: 800px;
-        height: 450px;
         margin: 50px;
     }
     section h2{

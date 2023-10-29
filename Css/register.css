@@ -56,8 +56,6 @@ section h2{
 
 @media(min-width:1020px){
     .register-container{
-        width: 800px;
-        height: 550px;
         margin: 50px;
     }
     section h2{

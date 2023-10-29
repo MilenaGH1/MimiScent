@@ -50,24 +50,26 @@
     animation: fade 0.5s ease-in,slide-right 0.8s ease-in-out;
 }
 
+
+
 /*Card*/
 .card-container img{
-    transition: all 0,3s linear;
+    transition: all 0.3s linear;
 }
 
 .card-container img:hover {
     transform: scale(0.9);
-    transition: all 0,3s linear;
+    transition: all 0.3s linear;
 }
 
 /*discover*/
 .discover-container img{
-    transition: all 0,3s linear;
+    transition: all 0.3s linear;
 }
 
 .discover-container img:hover {
     transform: scale(0.9);
-    transition: all 0,3s linear;
+    transition: all 0.3s linear;
 }
 
 
